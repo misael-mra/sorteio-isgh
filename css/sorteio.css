@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 40px;
+    background-image: url("http://127.0.0.1/sorteio/img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container h1 {
+    font-size: 38px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+.container {
+    text-align: center;
+    height: auto;
+    display: block;
+
+
+}
+
+.div-direita {
+    float: right;
+    margin-right: 2%;
+    width: 40%;
+}
+
+.div-esquerda {
+    float: left;
+    margin-left: 2%;
+}
+
+.well {
+    background-color: rgb(0 0 0 / 30%);
+}
+
+.table {
+    background: rgba(240, 248, 255, 0.5);
+}
+
+#button {
+    color: white !important;
+    background: #9c0c09 !important;
+}
+
+#button:hover {
+    color: white !important;
+    background: #630908 !important;
+}
+
+.section {
+    display: block;
+}
+
+@media (max-width: 1280px) {
+    .section {
+        display: block;
+        align-items: center;  
+    }
+
+    .div-direita {
+        float: right;
+        margin-right: 2%;
+        width: 45%;
+    }
+
+    .div-esquerda {
+        width: 45%;
+        float: left;
+        margin-left: 2%;
+    }
+}
