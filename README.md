@@ -3,7 +3,7 @@ Sorteio ISGH
 
 Aplicação simples para sortear um nome de uma lista de nomes, construída em PHP, jQuery e Bootstrap. Permite obter uma string aleatória de uma lista separada por quebras de linha.
 
-versão online, acesse aqui: [].
+versão online, acesse aqui: [https://sorteio-isgh.000webhostapp.com/].
 
 ## Uso
 
@@ -14,6 +14,6 @@ OBS.: Os nomes sorteados são armazenados em um array Javascript, e são enviado
 
 ## Implementar no Futuro
 
-* Adicionar suporte a banco de dados, fornecendo histórico de nomes e sorteios;
+* Melhorar a responsividade da página;
 * Armazenar os nomes sorteados no banco de dados ao invés de um array;
 * Armazenar os prêmios que serão sorteados.
